@@ -20,6 +20,7 @@
 		A9C8D05D232B6BC40089971E /* AYRectTransformPanelHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D05C232B6BC40089971E /* AYRectTransformPanelHandler.m */; };
 		A9C8D061232B94FD0089971E /* AYTransformElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D060232B94FD0089971E /* AYTransformElementView.m */; };
 		A9C8D064232B97F10089971E /* AYRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D063232B97F10089971E /* AYRectView.m */; };
+		A9DC9E9C232C8EDE00EDA8EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9DC9E9B232C8EDE00EDA8EE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		A9C8D060232B94FD0089971E /* AYTransformElementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTransformElementView.m; sourceTree = "<group>"; };
 		A9C8D062232B97F10089971E /* AYRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYRectView.h; sourceTree = "<group>"; };
 		A9C8D063232B97F10089971E /* AYRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYRectView.m; sourceTree = "<group>"; };
+		A9DC9E9B232C8EDE00EDA8EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		A9C8D02C232B26ED0089971E = {
 			isa = PBXGroup;
 			children = (
+				A9DC9E9B232C8EDE00EDA8EE /* README.md */,
 				A9C8D037232B26ED0089971E /* AYRectTransformView */,
 				A9C8D036232B26ED0089971E /* Products */,
 			);
@@ -181,6 +184,7 @@
 			files = (
 				A9C8D045232B26EE0089971E /* LaunchScreen.storyboard in Resources */,
 				A9C8D042232B26EE0089971E /* Assets.xcassets in Resources */,
+				A9DC9E9C232C8EDE00EDA8EE /* README.md in Resources */,
 				A9C8D040232B26ED0089971E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
