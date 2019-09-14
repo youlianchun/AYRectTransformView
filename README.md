@@ -1,6 +1,8 @@
 # AYRectTransformView
 AYRectTransformView 贴纸编辑控件
 
+![](https://raw.githubusercontent.com/youlianchun/AYRectTransformView/master/IMG_screenshot.PNG)
+
 #### AYTransformElementView
 ```
 @interface AYTransformElementView : UIView<AYRectTransformElement>
