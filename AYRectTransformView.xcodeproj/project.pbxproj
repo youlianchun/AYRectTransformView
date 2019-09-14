@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C8D03A232B26ED0089971E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D039232B26ED0089971E /* AppDelegate.m */; };
+		A9C8D03D232B26ED0089971E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D03C232B26ED0089971E /* ViewController.m */; };
+		A9C8D040232B26ED0089971E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C8D03E232B26ED0089971E /* Main.storyboard */; };
+		A9C8D042232B26EE0089971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C8D041232B26EE0089971E /* Assets.xcassets */; };
+		A9C8D045232B26EE0089971E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C8D043232B26EE0089971E /* LaunchScreen.storyboard */; };
+		A9C8D048232B26EE0089971E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D047232B26EE0089971E /* main.m */; };
+		A9C8D054232B27160089971E /* AYRectTransformControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D051232B27160089971E /* AYRectTransformControl.m */; };
+		A9C8D055232B27160089971E /* AYGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D052232B27160089971E /* AYGestureControl.m */; };
+		A9C8D056232B27160089971E /* CGGeometry+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D053232B27160089971E /* CGGeometry+Rect.m */; };
+		A9C8D05A232B31070089971E /* AYRectTransformPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D058232B31070089971E /* AYRectTransformPanel.m */; };
+		A9C8D05D232B6BC40089971E /* AYRectTransformPanelHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D05C232B6BC40089971E /* AYRectTransformPanelHandler.m */; };
+		A9C8D061232B94FD0089971E /* AYTransformElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D060232B94FD0089971E /* AYTransformElementView.m */; };
+		A9C8D064232B97F10089971E /* AYRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D063232B97F10089971E /* AYRectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9C8D035232B26ED0089971E /* AYRectTransformView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYRectTransformView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C8D038232B26ED0089971E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9C8D039232B26ED0089971E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9C8D03B232B26ED0089971E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9C8D03C232B26ED0089971E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9C8D03F232B26ED0089971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9C8D041232B26EE0089971E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9C8D044232B26EE0089971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9C8D046232B26EE0089971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C8D047232B26EE0089971E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9C8D04E232B27160089971E /* AYGestureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYGestureControl.h; sourceTree = "<group>"; };
+		A9C8D04F232B27160089971E /* CGGeometry+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+Rect.h"; sourceTree = "<group>"; };
+		A9C8D050232B27160089971E /* AYRectTransformControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYRectTransformControl.h; sourceTree = "<group>"; };
+		A9C8D051232B27160089971E /* AYRectTransformControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYRectTransformControl.m; sourceTree = "<group>"; };
+		A9C8D052232B27160089971E /* AYGestureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYGestureControl.m; sourceTree = "<group>"; };
+		A9C8D053232B27160089971E /* CGGeometry+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+Rect.m"; sourceTree = "<group>"; };
+		A9C8D058232B31070089971E /* AYRectTransformPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYRectTransformPanel.m; sourceTree = "<group>"; };
+		A9C8D059232B31070089971E /* AYRectTransformPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYRectTransformPanel.h; sourceTree = "<group>"; };
+		A9C8D05B232B6BC40089971E /* AYRectTransformPanelHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYRectTransformPanelHandler.h; sourceTree = "<group>"; };
+		A9C8D05C232B6BC40089971E /* AYRectTransformPanelHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYRectTransformPanelHandler.m; sourceTree = "<group>"; };
+		A9C8D05F232B94FD0089971E /* AYTransformElementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTransformElementView.h; sourceTree = "<group>"; };
+		A9C8D060232B94FD0089971E /* AYTransformElementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTransformElementView.m; sourceTree = "<group>"; };
+		A9C8D062232B97F10089971E /* AYRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYRectView.h; sourceTree = "<group>"; };
+		A9C8D063232B97F10089971E /* AYRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYRectView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C8D032232B26ED0089971E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C8D02C232B26ED0089971E = {
+			isa = PBXGroup;
+			children = (
+				A9C8D037232B26ED0089971E /* AYRectTransformView */,
+				A9C8D036232B26ED0089971E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C8D036232B26ED0089971E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C8D035232B26ED0089971E /* AYRectTransformView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C8D037232B26ED0089971E /* AYRectTransformView */ = {
+			isa = PBXGroup;
+			children = (
+				A9C8D05E232B94BC0089971E /* AYRectTransformPanel */,
+				A9C8D057232B27280089971E /* AYRectTransformView */,
+				A9C8D05F232B94FD0089971E /* AYTransformElementView.h */,
+				A9C8D060232B94FD0089971E /* AYTransformElementView.m */,
+				A9C8D062232B97F10089971E /* AYRectView.h */,
+				A9C8D063232B97F10089971E /* AYRectView.m */,
+				A9C8D038232B26ED0089971E /* AppDelegate.h */,
+				A9C8D039232B26ED0089971E /* AppDelegate.m */,
+				A9C8D03B232B26ED0089971E /* ViewController.h */,
+				A9C8D03C232B26ED0089971E /* ViewController.m */,
+				A9C8D03E232B26ED0089971E /* Main.storyboard */,
+				A9C8D041232B26EE0089971E /* Assets.xcassets */,
+				A9C8D043232B26EE0089971E /* LaunchScreen.storyboard */,
+				A9C8D046232B26EE0089971E /* Info.plist */,
+				A9C8D047232B26EE0089971E /* main.m */,
+			);
+			path = AYRectTransformView;
+			sourceTree = "<group>";
+		};
+		A9C8D057232B27280089971E /* AYRectTransformView */ = {
+			isa = PBXGroup;
+			children = (
+				A9C8D04F232B27160089971E /* CGGeometry+Rect.h */,
+				A9C8D053232B27160089971E /* CGGeometry+Rect.m */,
+				A9C8D050232B27160089971E /* AYRectTransformControl.h */,
+				A9C8D051232B27160089971E /* AYRectTransformControl.m */,
+				A9C8D04E232B27160089971E /* AYGestureControl.h */,
+				A9C8D052232B27160089971E /* AYGestureControl.m */,
+			);
+			path = AYRectTransformView;
+			sourceTree = "<group>";
+		};
+		A9C8D05E232B94BC0089971E /* AYRectTransformPanel */ = {
+			isa = PBXGroup;
+			children = (
+				A9C8D059232B31070089971E /* AYRectTransformPanel.h */,
+				A9C8D058232B31070089971E /* AYRectTransformPanel.m */,
+				A9C8D05B232B6BC40089971E /* AYRectTransformPanelHandler.h */,
+				A9C8D05C232B6BC40089971E /* AYRectTransformPanelHandler.m */,
+			);
+			path = AYRectTransformPanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C8D034232B26ED0089971E /* AYRectTransformView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C8D04B232B26EE0089971E /* Build configuration list for PBXNativeTarget "AYRectTransformView" */;
+			buildPhases = (
+				A9C8D031232B26ED0089971E /* Sources */,
+				A9C8D032232B26ED0089971E /* Frameworks */,
+				A9C8D033232B26ED0089971E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYRectTransformView;
+			productName = AYRectTransformView;
+			productReference = A9C8D035232B26ED0089971E /* AYRectTransformView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C8D02D232B26ED0089971E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = YLCHUN;
+				TargetAttributes = {
+					A9C8D034232B26ED0089971E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A9C8D030232B26ED0089971E /* Build configuration list for PBXProject "AYRectTransformView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C8D02C232B26ED0089971E;
+			productRefGroup = A9C8D036232B26ED0089971E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C8D034232B26ED0089971E /* AYRectTransformView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C8D033232B26ED0089971E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C8D045232B26EE0089971E /* LaunchScreen.storyboard in Resources */,
+				A9C8D042232B26EE0089971E /* Assets.xcassets in Resources */,
+				A9C8D040232B26ED0089971E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C8D031232B26ED0089971E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C8D061232B94FD0089971E /* AYTransformElementView.m in Sources */,
+				A9C8D056232B27160089971E /* CGGeometry+Rect.m in Sources */,
+				A9C8D064232B97F10089971E /* AYRectView.m in Sources */,
+				A9C8D055232B27160089971E /* AYGestureControl.m in Sources */,
+				A9C8D05D232B6BC40089971E /* AYRectTransformPanelHandler.m in Sources */,
+				A9C8D03D232B26ED0089971E /* ViewController.m in Sources */,
+				A9C8D05A232B31070089971E /* AYRectTransformPanel.m in Sources */,
+				A9C8D048232B26EE0089971E /* main.m in Sources */,
+				A9C8D054232B27160089971E /* AYRectTransformControl.m in Sources */,
+				A9C8D03A232B26ED0089971E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9C8D03E232B26ED0089971E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C8D03F232B26ED0089971E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9C8D043232B26EE0089971E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C8D044232B26EE0089971E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9C8D049232B26EE0089971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9C8D04A232B26EE0089971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C8D04C232B26EE0089971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6QCEN324A;
+				INFOPLIST_FILE = AYRectTransformView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylcc.AYRectTransformView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9C8D04D232B26EE0089971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6QCEN324A;
+				INFOPLIST_FILE = AYRectTransformView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylcc.AYRectTransformView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C8D030232B26ED0089971E /* Build configuration list for PBXProject "AYRectTransformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C8D049232B26EE0089971E /* Debug */,
+				A9C8D04A232B26EE0089971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C8D04B232B26EE0089971E /* Build configuration list for PBXNativeTarget "AYRectTransformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C8D04C232B26EE0089971E /* Debug */,
+				A9C8D04D232B26EE0089971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C8D02D232B26ED0089971E /* Project object */;
+}
