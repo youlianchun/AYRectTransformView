@@ -259,7 +259,7 @@
 
 #pragma mark -
 - (void)updateStrokeHidden {
-    self.strokeLayer.hidden = _isPaning;
+    self.strokeLayer.hidden = _isPaning || _disableDot;
 }
 
 - (void)updateStrokeLayerIfNeed {
