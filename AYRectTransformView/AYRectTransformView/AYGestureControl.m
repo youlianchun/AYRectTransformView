@@ -11,7 +11,7 @@ typedef struct {
     BOOL gestureBegan;
     BOOL gestureMoved;
     BOOL gestureEnded;
-    BOOL gestureTap
+    BOOL gestureTap;
 } AYGestureControlDelegateResponds;
 
 @interface AYGestureControl()<UIGestureRecognizerDelegate>
@@ -80,7 +80,7 @@ typedef struct {
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
     if (gestureRecognizer == _panGesture) {
-        return _delegate != nil;
+        return _delegate != nil && !_disablePan;
     }else {
         return  _delegateResponds.gestureTap || (_target != nil && _action != NULL);
     }
@@ -114,7 +114,10 @@ typedef struct {
 
 - (void)tapHandler:(UITapGestureRecognizer *)sender {
     if (_delegateResponds.gestureTap) {
-        [self.delegate gestureControlTap:self];
+        BOOL allow = [self.delegate gestureControlTap:self];
+        if (!allow) {
+            return;
+        }
     }
     [_target performSelector:_action withObject:self afterDelay:0];
 }

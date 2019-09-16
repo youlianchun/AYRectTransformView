@@ -67,6 +67,9 @@
         [self.transformPanel removeElement:self.elementView];
         [self.rectView resetRotateRect];
     }];
+    [self.rectView setTapEditCallback:^{
+        NSLog(@"");
+    }];
 }
 
 - (void)btnAction:(UIButton *)sender {

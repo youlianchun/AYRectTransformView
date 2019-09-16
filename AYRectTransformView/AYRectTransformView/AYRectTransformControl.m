@@ -48,6 +48,7 @@
     
     _conControl = [[AYGestureControl alloc] initWithFrame:CGRectZero];
     _conControl.delegate = self;
+    _conControl.disablePan = YES;
     static CGFloat len = 30;
     _ltControl = [[AYGestureControl alloc] initWithFrame:CGRectMake(0, 0, len, len)];
     _lbControl = [[AYGestureControl alloc] initWithFrame:CGRectMake(0, 0, len, len)];
@@ -64,6 +65,10 @@
     [self setRadianDot:_rbControl];
     [self resetRotateRect];
     
+    [self initGestureRecognizer];
+}
+
+- (void)initGestureRecognizer {
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapHandler:)];
     tapGesture.delegate = self;
     [self addGestureRecognizer:tapGesture];
@@ -72,7 +77,6 @@
     panGesture.maximumNumberOfTouches = 1;
     panGesture.delegate = self;
     [self addGestureRecognizer:panGesture];
-    
 }
 
 - (void)setRotateRect:(CGRotateRect)rotateRect {
@@ -92,6 +96,10 @@
     [self updateLayoutWithRect:rect];
     [self setDotControlHidden:YES];
     _strokeLayer.hidden = YES;
+}
+
+- (UIView *)content {
+    return _conControl;
 }
 
 - (UIView *)ltDot {
@@ -250,11 +258,14 @@
     [self endedTransform];
 }
 
-- (void)gestureControlTap:(AYGestureControl *)control {
+- (BOOL)gestureControlTap:(AYGestureControl *)control {
     if (control == _conControl) {
+        BOOL isSelect = !_lastControlHidden;
         [self updateControlHidden];
         [self updateStrokeHidden];
+        return isSelect;
     }
+    return YES;
 }
 
 #pragma mark -
