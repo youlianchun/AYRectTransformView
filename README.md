@@ -1,6 +1,6 @@
 # AYRectTransformView
 AYRectTransformView 贴纸编辑控件
-
+双指操作目前没时间搞，等下后面有空了扩展一下，也欢迎大家一起扩展。
 ![](https://raw.githubusercontent.com/youlianchun/AYRectTransformView/master/IMG_screenshot.PNG)
 
 #### AYTransformElementView
